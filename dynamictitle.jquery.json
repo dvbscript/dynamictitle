@@ -1,0 +1,28 @@
+{
+  "name": "dynamictitle",
+  "version": "0.1.0",
+	"title": "Dynamic Title",
+	"author": {
+		"name": "Dmitry Beskorsy",
+		"email": "dvbscript@gmail.com",
+		"url": "http://dvbscript.ru"
+	},
+	"licenses": [
+		{
+			"type": "MTI",
+			"url": "https://raw.github.com/dvbscript/dynamictitle/master/LICENSE"
+		}
+	],
+	"dependencies": {
+		"jquery": ">=1.5"
+	},
+	"description": "This plugin allows you to show 'title' or 'alt' attributes of images as animated sticker: floating, collapsing, having its own Titles, above, beneath or inside of image etc, with lot of settings.",
+	"keywords": [
+		"dynamictitle",
+		"titles"
+	],
+	"homepage": "https://github.com/dvbscript/dynamictitle",
+	"demo": "http://dvbscript.ru/dynamictitle",
+	"download": "https://github.com/dvbscript/dynamictitle/archive/master.zip",
+	"bugs": "https://github.com/dvbscript/dynamictitle/issues"
+}
