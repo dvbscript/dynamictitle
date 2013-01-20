@@ -1,0 +1,34 @@
+.dynamictitle-body
+{
+padding: 5px;
+border: 2px solid #CCCCCC;
+background: none repeat scroll 0 0 #EEEEEE;
+}
+        
+.dynamictitle-body.dynamictitle-body-wt{border-top: 0;}
+        
+.dynamictitle-title {
+background: none repeat scroll 0 0 #CCCCCC;
+border: 2px solid #CCCCCC;
+border-bottom: 1px dashed #EEEEEE;
+color: #565656;
+padding: 5px;
+text-shadow: 1px 1px 1px #FFFFFF;
+}
+        
+.dynamictitle-close {
+background: url("top_right_collapse.png") no-repeat scroll 0 10px ;
+height: 30px;
+position: absolute;
+right: 0;
+top: 0;
+width: 30px;
+z-index:10000;
+display:none;
+cursor:pointer;
+}
+
+.dynamictitle-closed
+{
+background: url("top_right_expand.png") no-repeat scroll 0 0 ;
+}
