@@ -90,8 +90,8 @@
                     expandSpeed: null, 
                     leftOffset: 0, 
                     movingTitle: true, 
-                    closeLabel: 'Свернуть',
-                    expandLabel: 'Развернуть',
+                    closeLabel: 'РЎРІРµСЂРЅСѓС‚СЊ',
+                    expandLabel: 'Р Р°Р·РІРµСЂРЅСѓС‚СЊ',
                     stickWinClass: 'stickWin'
                 }, options || {});
 
@@ -344,7 +344,7 @@
 
             },
             function () {
-                //$(".stickWin").remove();
+                $(".stickWin").remove();
                 $(window).unbind('scroll.stickWin');
             });
                 });
